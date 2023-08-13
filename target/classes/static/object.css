@@ -1,0 +1,107 @@
+.object {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
+
+.block_object {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.add_object {
+    width: 40%;
+    padding: 2%;
+    background-color: #fff;
+    border-radius: 25px;
+    border: 1px solid #3f3f3f;
+}
+
+.show_object {
+    width: 40%;
+    padding: 2%;
+    background-color: #fff;
+    border-radius: 25px;
+    border: 1px solid #3f3f3f;
+    min-height: 250px;
+    max-height: 2048px;
+}
+
+.inp_obj {
+    width: 80%;
+    height: 35px;
+    margin-bottom: 3%;
+    padding: 2%;
+    background-color: #ffffff00;
+    border: 1px solid #8b8b8b;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #3f3f3f;
+    outline: none;
+}
+
+.btn_obj {
+    padding: 2%;
+    margin: 3% auto;
+    border: 1px solid #8b8b8b;
+    border-radius: 5px;
+    background-color: #ffffff00;
+    font-size: 18px;
+    font-weight: 900;
+    color: #3f3f3f;
+    letter-spacing: 1px;
+}
+
+.btn_obj:hover {
+    transition: .5s;
+    background-color: #3f3f3f;
+    color: #fff;
+    cursor: pointer;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 24px;
+    color: #3f3f3f;
+    margin-bottom: 5%;
+    border-bottom: 1px solid #3f3f3f;
+    padding-bottom: 3%;
+}
+
+.object_item {
+    color: #3f3f3f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.object_h {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+.table_object {
+    margin: 0 auto;
+    color: #3f3f3f;
+    font-size: 18px;
+    text-align: center;
+}
+
+.table_head {
+    width: 150px;
+}
+
+.container {
+    font-size: 18px;
+    color: #3f3f3f;
+}
+
+.check_role {
+    background-color: #fff;
+    border: #3f3f3f;
+    border-radius: 15px;
+    width: 30px;
+    transform: scale(1.5);
+}

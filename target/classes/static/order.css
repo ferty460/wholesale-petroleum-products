@@ -1,0 +1,83 @@
+.order {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
+
+.block_order {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 3%;
+}
+
+.add_order {
+    height: 450px;
+    width: 40%;
+    margin: 0 auto;
+    padding: 2%;
+    background-color: #fff;
+    border-radius: 25px;
+    border: 1px solid #3f3f3f;
+}
+
+.subtitle_order {
+    text-align: center;
+    font-size: 24px;
+    color: #3f3f3f;
+    margin-bottom: 5%;
+    border-bottom: 1px solid #3f3f3f;
+    padding-bottom: 3%;
+}
+
+.show_order {
+    margin: 0 auto;
+    width: 40%;
+    padding: 2%;
+    background-color: #fff;
+    border-radius: 25px;
+    border: 1px solid #3f3f3f;
+}
+
+.text_select {
+    font-size: 20px;
+    color: #3f3f3f;
+    padding: 2%;
+}
+
+.select {
+    width: 80%;
+    font-size: 18px;
+    color: #3f3f3f;
+    padding: 1%;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    outline: none;
+}
+
+.select:hover {
+    border: 1px solid #000;
+    transition: .5s;
+}
+
+.inp_ord {
+    width: 80%;
+    height: 35px;
+    margin-bottom: 3%;
+    padding: 2%;
+    background-color: #ffffff00;
+    border: 1px solid #8b8b8b;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #3f3f3f;
+    outline: none;
+}
+
+.link_obj {
+    color: #3f3f3f;
+    text-decoration: underline;
+}
+
+.link_obj:hover {
+    text-decoration: none;
+}

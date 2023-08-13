@@ -1,0 +1,69 @@
+.login {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
+
+.block_login {
+    width: 30%;
+    margin: 0 auto;
+    padding: 2%;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.title {
+    text-align: center;
+    color: #3f3f3f;
+    font-size: 32px;
+    margin-bottom: 2%;
+    text-decoration: underline;
+}
+
+.inp_log {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 3%;
+    padding: 2%;
+    background-color: #ffffff00;
+    border: 1px solid #8b8b8b;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #3f3f3f;
+    outline: none;
+}
+
+.btn_log {
+    padding: 2%;
+    margin-top: 3%;
+    border: 1px solid #8b8b8b;
+    border-radius: 5px;
+    background-color: #ffffff00;
+    font-size: 18px;
+    font-weight: 900;
+    color: #3f3f3f;
+    letter-spacing: 1px;
+}
+
+.btn_log:hover {
+    transition: .5s;
+    background-color: #3f3f3f;
+    color: #fff;
+    cursor: pointer;
+}
+
+.or {
+    color: #3f3f3f;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.reg {
+    font-size: 18px;
+    color: #3f3f3f;
+    text-decoration: underline;
+}
+
+.reg:hover {
+    text-decoration: none;
+}
